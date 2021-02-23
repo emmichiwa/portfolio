@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box; /* padding läggs till och pressar innehållet inåt */
+}
+
+#container {
+    width: 960px;
+    margin: 20px auto; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#header,
+#main-content,
+#footer {
+    padding: 20px;
+}
+
+#header {
+    background-color: skyblue;
+}
+
+#site-header {
+    color: darkslategrey;
+    padding: 0;
+    margin: 0; 
+}
+
+#main-nav {
+    background-color:rgb(97, 97, 193);
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: left; 
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    background-color: rgb(97, 97, 193);
+    color: white;
+}
+
+#main-nav > ul > li {
+    float: left;
+}
+
+#main-content {
+    margin-top: 10px; 
+    background-color: beige;
+    height: 300px;
+    width: 960px; 
+}
+
+#footer {
+    background-color: gray;
+    height: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*----------EXTRA----------*/ 
+
+.active {
+    background-color: rgb(233, 158, 229);
+    color: white;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
