@@ -2,29 +2,36 @@
     box-sizing: border-box; /* padding läggs till och pressar innehållet inåt */
 }
 
+body {
+    background-color: #E3E8E8; 
+}
+
+h1 {
+    color: white; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
 #container {
     width: 100%;
     margin: 20px auto; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
-#header,
 #main-content,
 #footer {
     padding: 20px;
 }
 
 #header {
-    background-color: skyblue;
+    background-color: #2D3134; 
+    padding: 10px; 
 }
 
-#site-header {
-    color: darkslategrey;
-    padding: 0;
-    margin: 0; 
+#header img {
+    width: 250px; 
 }
 
 #main-nav {
-    background-color:rgb(97, 97, 193);
+    background-color: #B7BCBA;
 }
 
 #main-nav ul {
@@ -51,13 +58,18 @@
 
 #main-content {
     margin-top: 10px; 
-    background-color: beige;
-    height: 300px;
+    background-color: white;
+    height: 460px;
     width: 960px; 
 }
 
+#main-content img {
+    height: 300px;
+    margin: 20px auto; 
+}
+
 #footer {
-    background-color: gray;
+    background-color: #3D4244;
     height: 100px;
     margin-top: 10px;
     color: white;
